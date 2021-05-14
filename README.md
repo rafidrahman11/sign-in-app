@@ -1,4 +1,8 @@
-# Sign In App 
+# Sign In App
+
+### `npm install`
+
+Install all the dependencies.
 
 ### `npm start`
 
