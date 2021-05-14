@@ -1,0 +1,70 @@
+.signin {
+    background-color: white;
+    border-top: 3px solid green;
+    padding: 30px;
+    width: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .signin{
+      width: 75%;
+    }
+  }
+
+.signin__header {
+    text-align: center;
+}
+
+.signin__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin__form-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.signin__label {
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.signin__input {
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    border: 1px solid lightgray
+}
+
+.signin__error {
+    color: red;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.signin__checkbox {
+    margin-right: 10px;
+}
+
+.signin__submit {
+    padding: 10px;
+    margin: 15px 0px;
+    background-color: green;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.signin__footer {
+    text-align: center;
+}
+
+.signin__link {
+    color: black;
+    font-weight: bold;
+}
